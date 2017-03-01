@@ -25,6 +25,8 @@ The in-line encrypted variable can be referenced and automaticly de-crypted with
 
 Obvioulsy it depends on a working installation of hiera-eyaml being avaialble.
 
+The script expects a file named "eyaml.yml" next to itself, in which the paths to the private and public key used for (en|de)cryption. (An example is provided in this repository)
+
 To produce encrypted variables for inclusion in your inventory you can use the eyaml command line tool:
 
 ```
